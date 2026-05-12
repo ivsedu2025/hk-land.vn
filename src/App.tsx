@@ -228,10 +228,10 @@ export default function App() {
           </div>
         )}
 
-        <div className="grid grid-cols-1 lg:grid-cols-12 gap-12">
+        <div className="flex flex-col lg:grid lg:grid-cols-12 gap-12">
           
           {/* Main Feed: Facebook Posts (Appears on the left taking 8 cols) */}
-          <div className="lg:col-span-8 flex flex-col">
+          <div className="lg:col-span-8 flex flex-col order-2 lg:order-1">
             <div className="flex items-center justify-between mb-8 pb-4 border-b border-gray-200">
               <h2 className="text-2xl font-bold text-gray-900 flex items-center gap-2">
                 <Facebook className="w-6 h-6 text-blue-600" />
@@ -298,8 +298,8 @@ export default function App() {
             )}
           </div>
 
-          {/* Right Sidebar: Real Estate News (4 cols) */}
-          <div className="lg:col-span-4 flex flex-col">
+          {/* Right Sidebar: Real Estate News (4 cols) - Hiển thị trên top mobile */}
+          <div className="lg:col-span-4 flex flex-col order-1 lg:order-2 mb-8 lg:mb-0">
              <div className="flex items-center justify-between mb-8 pb-4 border-b border-gray-200">
               <h2 className="text-xl font-bold text-gray-900 flex items-center gap-2">
                 <Newspaper className="w-6 h-6 text-emerald-600" />
@@ -307,7 +307,7 @@ export default function App() {
               </h2>
             </div>
             
-            <div className="bg-white rounded-2xl border border-gray-100 shadow-sm p-5 sticky top-24">
+            <div className="bg-white rounded-2xl border border-gray-100 shadow-sm p-5 lg:sticky lg:top-24">
               {loadingNews ? (
                 <div className="flex flex-col items-center justify-center py-12 text-gray-400">
                   <Loader2 className="w-8 h-8 animate-spin mb-4 text-emerald-600" />
@@ -330,13 +330,22 @@ export default function App() {
                          <img 
                            src={article.image} 
                            alt={article.title} 
-                           className="w-24 h-20 rounded-lg object-cover flex-shrink-0 group-hover:opacity-80 transition-opacity" 
+                           className="w-20 h-16 sm:w-24 sm:h-20 rounded-lg object-cover flex-shrink-0 group-hover:opacity-80 transition-opacity" 
                          />
-                         <div className="flex flex-col justify-center">
-                           <h3 className="text-sm font-semibold text-gray-900 line-clamp-2 leading-snug group-hover:text-emerald-700 transition-colors">
+                         <div className="flex flex-col justify-center flex-1 min-w-0">
+                           <h3 className="text-sm font-semibold text-gray-900 line-clamp-2 leading-snug group-hover:text-emerald-700 transition-colors mb-2">
                              {article.title}
                            </h3>
-                           {timeAgo && <p className="text-xs text-gray-500 mt-2">{timeAgo}</p>}
+                           <div className="flex items-center justify-between text-xs text-gray-500 gap-2">
+                             {article.source && (
+                               <span className="bg-emerald-100 text-emerald-700 px-2 py-1 rounded-full font-medium whitespace-nowrap">
+                                 {article.source}
+                               </span>
+                             )}
+                             {timeAgo && (
+                               <span className="text-gray-400 whitespace-nowrap">{timeAgo}</span>
+                             )}
+                           </div>
                          </div>
                       </motion.a>
                     );
