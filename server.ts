@@ -8,51 +8,51 @@ const MOCK_POSTS = {
   data: [
     {
       id: "1",
-      message: "🚀 BÁN LÔ ĐẤT 500M2 GẦN CỔNG SỐ 1 SÂN BAY LONG THÀNH\n\n- Diện tích: 500m2 (10x50)\n- Vị trí: Xã Bình Sơn, ngay sát cổng số 1 sân bay quốc tế Long Thành.\n- Pháp lý: Sổ hồng riêng, công chứng sang tên ngay trong ngày.\n- Giá cũ 5 tỷ, chủ ngộp bank hạ giá thu hồi vốn cực shock.\n\n☎️ Liên hệ ngay Hotline BĐS HK Land: 0909.xxx.xxx để đi xem đất thực tế!",
-      created_time: new Date(Date.now() - 1000 * 60 * 60 * 2).toISOString(), // 2 hours ago
-      full_picture: "https://images.unsplash.com/photo-1582407947304-fd86f1f09c5e?ixlib=rb-4.0.3&auto=format&fit=crop&w=1600&q=80",
+      message: "🌟 ĐẦU TƯ ĐẤT VÀNG GẦN SÂN BAY LONG THÀNH - CƠ HỘI SINH LỜI VƯỢT TRỘI\n\n- Vị trí chiến lược gần sân bay quốc tế Long Thành\n- Pháp lý minh bạch, sổ hồng riêng\n- Tiềm năng tăng giá cao trong tương lai\n\nLiên hệ ngay để được tư vấn đầu tư hiệu quả!",
+      created_time: new Date(Date.now() - 1000 * 60 * 60 * 1).toISOString(), // 1 hour ago
+      full_picture: "https://images.unsplash.com/photo-1517423568366-8b83523034fd?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1600&q=80",
       permalink_url: "https://www.facebook.com/bdshkland/"
     },
     {
       id: "2",
-      message: "🛫 TIẾN ĐỘ THI CÔNG SÂN BAY QUỐC TẾ LONG THÀNH THÁNG NÀY\n\nNhà ga hành khách sân bay Long Thành mang hình dáng hoa sen đang được đẩy nhanh tiến độ thi công thần tốc. Các hạng mục đường băng, sân đỗ đã bắt đầu thành hình.\n\nĐây là thời điểm VÀNG để các nhà đầu tư sở hữu những vị trí đắc địa xung quanh khu vực sân bay trước khi sân bay đi vào hoạt động giai đoạn 1 (Dự kiến 2026).\n\n👇 Xem thêm các dự án cực HOT dưới comment!",
-      created_time: new Date(Date.now() - 1000 * 60 * 60 * 24 * 1).toISOString(), // 1 day ago
-      full_picture: "https://images.unsplash.com/photo-1436491865332-7a61a109cc05?ixlib=rb-4.0.3&auto=format&fit=crop&w=1600&q=80",
+      message: "🏗️ TIẾN ĐỘ XÂY DỰNG SÂN BAY LONG THÀNH THÁNG NÀY\n\nCác hạng mục chính của sân bay Long Thành đang được triển khai thần tốc. Đây là thời điểm VÀNG để đầu tư vào bất động sản khu vực lân cận.\n\n✅ Giao thông kết nối thuận tiện\n✅ Quy hoạch đồng bộ hiện đại\n✅ Tiềm năng tăng giá rõ rệt\n\nTheo dõi Fanpage để cập nhật thông tin mới nhất!",
+      created_time: new Date(Date.now() - 1000 * 60 * 60 * 5).toISOString(), // 5 hours ago
+      full_picture: "https://images.unsplash.com/photo-1603166163200-8ec11da5ecc3?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1600&q=80",
       permalink_url: "https://www.facebook.com/bdshkland/"
     },
     {
       id: "3",
-      message: "🔥 CHÍNH CHỦ GỬI BÁN GẤP ĐẤT SÀO TẠI XÃ LỘC AN, LONG THÀNH\n\n- Mặt tiền đường rải đá 6m, ô tô vào tới đất.\n- Diện tích: 1000m2 (1 xào vuông vức siêu đẹp).\n- Cách cao tốc HCM - Long Thành chỉ 5 phút di chuyển.\n- Thích hợp xây nhà vườn nghỉ dưỡng hoặc đầu tư trung hạn.\n\nĐừng bỏ lỡ cơ hội! Gọi ngay BĐS HK Land.",
-      created_time: new Date(Date.now() - 1000 * 60 * 60 * 24 * 3).toISOString(), // 3 days ago
-      full_picture: "https://images.unsplash.com/photo-1500382017468-9049fed747ef?ixlib=rb-4.0.3&auto=format&fit=crop&w=1600&q=80",
+      message: "🏡 ĐẤT NỀN BIỆT THỰ LONG THÀNH - SỞ HỮU VỊ TRÍ ĐẮC ĐỊA\n\n- Diện tích: 500m2 (10x50m)\n- Vị trí: Gần cổng chính sân bay, mặt tiền đường lớn\n- Pháp lý: Sổ hồng riêng, hoàn công đầy đủ\n- Tiện ích: Gần trường học, bệnh viện, trung tâm thương mại\n\nCơ hội đầu tư hiếm có, sinh lời nhanh chóng!",
+      created_time: new Date(Date.now() - 1000 * 60 * 60 * 24).toISOString(), // 1 day ago
+      full_picture: "https://images.unsplash.com/photo-1599619351208-a3cbd34a733f?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1600&q=80",
       permalink_url: "https://www.facebook.com/bdshkland/"
     },
     {
       id: "4",
-      message: "🌟 TẠI SAO NÊN ĐẦU TƯ BẤT ĐỘNG SẢN VEN SÂN BAY LONG THÀNH?\n\n1️⃣ Hạ tầng giao thông kết nối đồng bộ: Cao tốc, Đường sắt nhẹ, Vành đai 3, 4...\n2️⃣ Thành phố sân bay 50.000ha mang lại hàng trăm ngàn cơ hội việc làm, kéo theo nhu cầu nhà ở khổng lồ.\n3️⃣ Giá đất vẫn còn dư địa tăng trưởng lớn so với các khu vực đã phát triển lõi trung tâm.\n\nHãy là nhà đầu tư thông thái! Liên hệ HK Land để nhận bảng giá các quỹ đất đẹp nhất khu vực.",
-      created_time: new Date(Date.now() - 1000 * 60 * 60 * 24 * 5).toISOString(), // 5 days ago
-      full_picture: "https://images.unsplash.com/photo-1560518883-ce09059eeffa?ixlib=rb-4.0.3&auto=format&fit=crop&w=1600&q=80",
+      message: "🏢 DỰ ÁN ĐÔ THỊ MỚI LONG THÀNH - HỨA HẸN MỌI TIỆN ÍCH\n\n- Tổng diện tích: 150 hecta\n- Loại hình: Đất nền, nhà phố, biệt thự\n- Chủ đầu tư: Tập đoàn uy tín, pháp lý rõ ràng\n- Tiến độ: Đang hoàn thiện hạ tầng, sẵn sàng mở bán\n\nĐặt chỗ ngay hôm nay để chọn vị trí đẹp nhất!",
+      created_time: new Date(Date.now() - 1000 * 60 * 60 * 24 * 2).toISOString(), // 2 days ago
+      full_picture: "https://images.unsplash.com/photo-1501785888041-af3ef285b470?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1600&q=80",
       permalink_url: "https://www.facebook.com/bdshkland/"
     },
     {
       id: "5",
-      message: "🏙️ QUY HOẠCH CHI TIẾT KHU ĐÔ THỊ VỆ TINH LONG THÀNH\n\n- Vùng lõi trung tâm sân bay\n- Khu đô thị dịch vụ, thương mại\n- Khu công nghiệp phụ trợ\nTheo quyết định mới nhất, các khu vực ranh giới đã được xác định rõ ràng...",
-      created_time: new Date(Date.now() - 1000 * 60 * 60 * 24 * 6).toISOString(),
-      full_picture: "https://images.unsplash.com/photo-1486406146926-c627a92ad1ab?ixlib=rb-4.0.3&auto=format&fit=crop&w=1600&q=80",
+      message: "💰 ĐẦU TƯ LINH HOẠT THEO GIAI ĐOẠN - TỐI ƯU HIỆU QUẢ\n\nChúng tôi cung cấp nhiều phương án đầu tư phù hợp:\n• Giai đoạn 1: Mua đất nền giá gốc\n• Giai đoạn 2: Xây dựng theo thiết kế\n• Giai đoạn 3: Quản lý vận hành cho thuê\n\nLiên hệ để được tư vấn phương án phù hợp!",
+      created_time: new Date(Date.now() - 1000 * 60 * 60 * 24 * 3).toISOString(), // 3 days ago
+      full_picture: "https://images.unsplash.com/photo-1584622650111-993a426fbf0a?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1600&q=80",
       permalink_url: "https://www.facebook.com/bdshkland/"
     },
     {
       id: "6",
-      message: "💡 KINH NGHIỆM ĐẦU TƯ ĐẤT NỀN AN TOÀN TRÁNH DỰ ÁN MA\n\n1. Kiểm tra quy hoạch tại UBND xã/huyện.\n2. Yêu cầu xem Sổ hồng ranh mốc rõ ràng.\n3. Xem hình ảnh thực tế và ra tận nơi đối chiếu...",
-      created_time: new Date(Date.now() - 1000 * 60 * 60 * 24 * 7).toISOString(),
-      full_picture: "https://images.unsplash.com/photo-1554469384-e58fac16e23a?ixlib=rb-4.0.3&auto=format&fit=crop&w=1600&q=80",
+      message: "🛣️ HẠ TẦNG GIAO THÔNG ĐỒNG BỘ - KẾT NỐI LIỀN KỀ\n\n- Cao tốc TP.HCM - Long Thành - Dầu Giây\n- Tuyến đường Vành đai 3, 4\n- Tuyến Metro số 1\n- Cảng hàng không quốc tế Long Thành\n\nTất cả tạo nên hệ thống giao thông hoàn hảo cho khu vực!",
+      created_time: new Date(Date.now() - 1000 * 60 * 60 * 24 * 4).toISOString(), // 4 days ago
+      full_picture: "https://images.unsplash.com/photo-1503376780353-7e6692767b70?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1600&q=80",
       permalink_url: "https://www.facebook.com/bdshkland/"
     },
     {
       id: "7",
-      message: "✅ CẬP NHẬT RỔ HÀNG GIÁ TỐT TUẦN NÀY\n\n- Lô Lộc An 120m2 full thổ cư: Giá x.xx tỷ\n- Lô Bàu Cạn 500m2 CLN quy hoạch ONT: Giá x.xx tỷ\n- Lô Cẩm Đường 1000m2: Giá x.xx tỷ\nInbox ngay để nhận thông tin chi tiết!",
-      created_time: new Date(Date.now() - 1000 * 60 * 60 * 24 * 8).toISOString(),
-      full_picture: "https://images.unsplash.com/photo-1600596542815-ffad4c1539a9?ixlib=rb-4.0.3&auto=format&fit=crop&w=1600&q=80",
+      message: "🎯 TOP 5 LÝ DO NÊN ĐẦU TƯ VÀO LONG THÀNH NGAY HÔM NAY\n\n1️⃣ Vị trí trung tâm vùng kinh tế trọng điểm\n2️⃣ Sân bay quốc tế lớn thứ 3 cả nước\n3️⃣ Hạ tầng giao thông phát triển mạnh mẽ\n4️⃣ Quy hoạch đồng bộ hiện đại\n5️⃣ Tiềm năng tăng giá cao trong 3-5 năm tới\n\nCòn chần chờ gì nữa? Hãy hành động ngay!",
+      created_time: new Date(Date.now() - 1000 * 60 * 60 * 24 * 5).toISOString(), // 5 days ago
+      full_picture: "https://images.unsplash.com/photo-1506905925346-21bda4d32df4?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1600&q=80",
       permalink_url: "https://www.facebook.com/bdshkland/"
     }
   ]
@@ -106,29 +106,71 @@ async function startServer() {
   app.get('/api/real-estate-news', async (req, res) => {
     try {
       const parser = new Parser();
-      const feed = await parser.parseURL('https://vnexpress.net/rss/bat-dong-san.rss');
       
-      let items = feed.items.map(item => {
-        const imgMatch = item.content?.match(/<img[^>]+src="([^">]+)"/) || item.contentSnippet?.match(/<img[^>]+src="([^">]+)"/);
-        return {
-          id: item.guid || item.link,
-          title: item.title,
-          link: item.link,
-          pubDate: item.pubDate,
-          contentSnippet: item.contentSnippet?.replace(/<[^>]*>?/gm, '').trim(),
-          image: imgMatch?.[1] || "https://images.unsplash.com/photo-1560518883-ce09059eeffa?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&q=80",
-        };
+      // Lấy tin tức từ nhiều báo lớn
+      const newsSources = [
+        { name: 'VnExpress', url: 'https://vnexpress.net/rss/bat-dong-san.rss' },
+        { name: 'Thanh Niên', url: 'https://thanhnien.vn/rss/bat-dong-san.rss' },
+        { name: 'Tuổi Trẻ', url: 'https://tuoitre.vn/rss/bat-dong-san.rss' },
+        { name: 'Công an Nhân dân', url: 'https://cand.com.vn/rss/kinh-te.rss' },
+        { name: 'Đầu tư', url: 'https://baodautu.vn/rss/bat-dong-san.rss' }
+      ];
+
+      let allItems = [];
+
+      // Fetch từ tất cả các nguồn
+      for (const source of newsSources) {
+        try {
+          const feed = await parser.parseURL(source.url);
+          const items = feed.items.map(item => {
+            const imgMatch = item.content?.match(/<img[^>]+src="([^">]+)"/) || 
+                           item.contentSnippet?.match(/<img[^>]+src="([^">]+)"/) ||
+                           item['content:encoded']?.match(/<img[^>]+src="([^">]+)"/);
+            
+            return {
+              id: `${source.name}-${item.guid || item.link}`,
+              title: item.title,
+              link: item.link,
+              pubDate: item.pubDate,
+              contentSnippet: item.contentSnippet?.replace(/<[^>]*>?/gm, '').trim() || 
+                             item.content?.replace(/<[^>]*>?/gm, '').trim(),
+              image: imgMatch?.[1] || "https://images.unsplash.com/photo-1560518883-ce09059eeffa?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&q=80",
+              source: source.name
+            };
+          });
+          allItems = allItems.concat(items);
+        } catch (error) {
+          console.error(`Error fetching from ${source.name}:`, error);
+        }
+      }
+
+      // Lọc tin tức về Long Thành và Đồng Nai
+      const longThanhKeywords = [
+        'long thành', 'sân bay long thành', 'cảng hàng không quốc tế long thành',
+        'đồng nai', 'biên hòa', 'nhơn trạch', 'long thành đồng nai',
+        'thành phố sân bay', 'sân bay quốc tế', 'đất nền long thành',
+        'bất động sản long thành', 'đất nền đồng nai'
+      ];
+
+      // Lọc và ưu tiên tin về Long Thành
+      const longThanhNews = allItems.filter(item => {
+        const title = item.title?.toLowerCase() || '';
+        const content = item.contentSnippet?.toLowerCase() || '';
+        
+        return longThanhKeywords.some(keyword => 
+          title.includes(keyword) || content.includes(keyword)
+        );
       });
 
-      // Boost Long Thanh / Dong Nai news
-      const localNews = items.filter(i => 
-        i.title?.toLowerCase().includes('long thành') || 
-        i.title?.toLowerCase().includes('sân bay') || 
-        i.title?.toLowerCase().includes('đồng nai')
-      );
-      
-      const otherNews = items.filter(i => !localNews.includes(i));
-      const finalNews = [...localNews, ...otherNews].slice(0, 8);
+      // Tin bất động sản khác
+      const otherNews = allItems.filter(item => !longThanhNews.includes(item));
+
+      // Sắp xếp theo thời gian mới nhất
+      longThanhNews.sort((a, b) => new Date(b.pubDate).getTime() - new Date(a.pubDate).getTime());
+      otherNews.sort((a, b) => new Date(b.pubDate).getTime() - new Date(a.pubDate).getTime());
+
+      // Ghép kết quả: ưu tiên tin Long Thành trước, sau đó đến tin khác
+      const finalNews = [...longThanhNews.slice(0, 6), ...otherNews.slice(0, 4)];
 
       res.json({ data: finalNews });
     } catch (error) {
